@@ -2,103 +2,103 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/TimeLine.astro";
 import ContactIcons from "../components/ContactIcons.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import {SITE_TITLE, SITE_DESCRIPTION} from "../config";
 ---
 
 <BaseLayout title="{{SITE_TITLE}}">
-  <div class="mb-1">
-    <div class="text-4xl w-full font-bold">Pedro Dalvy</div>
-  </div>
-
-  <div class="mb-0">
-    <div class="text-2xl w-full font-bold">Desenvolvedor Back-end</div>
-  </div>
-
-  <div class="mb-5">
-    <div class="inline flex justify-between">
-      <div class="text-2sm opacity-75">pedrodalvy@outlook.com</div>
-      <ContactIcons />
+    <div class="mb-1">
+        <div class="text-4xl w-full font-bold">Pedro Dalvy</div>
     </div>
-  </div>
 
-  <div class="mb-5 text-justify">
-    <p class="mb-2">
-      Estou sempre aprendendo algo novo e gosto de novos desafios,
-      principalmente quando posso aproveitar a experiência adquirida com eles.
-      Também gosto de trabalhar em equipe, ajudar meus colegas, gosto bastante
-      de implementar testes e estou sempre buscando a simplicidade na resolução
-      de problemas.
-    </p>
+    <div class="mb-0">
+        <div class="text-2xl w-full font-bold">Desenvolvedor Back-end</div>
+    </div>
 
-    <p>
-      Com mais de 8 anos de experiência na área TI, comecei como Técnico de
-      Suporte e posteriormente atuei como QA. Atualmente, trabalho como
-      Desenvolvedor, utilizando NodeJS e TypeScript, além de ter experiência na
-      linguagem PHP, com o Framework Laravel, e em bancos de dados PostgreSQL,
-      MongoDB, MySQL e Elasticsearch, bem como cache utilizando Redis. Também
-      tenho habilidades em realizar testes unitários e de integração com Jest e
-      PHPUnit, além de ter trabalhado com Code Review, Deploy e monitoramento
-      constante das aplicações.
-    </p>
-  </div>
+    <div class="mb-5">
+        <div class="inline flex justify-between">
+            <div class="text-2sm opacity-75">pedrodalvy@outlook.com</div>
+            <ContactIcons/>
+        </div>
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experiência</div>
-  </div>
+    <div class="mb-5 text-justify">
+        <p class="mb-2">
+            Estou sempre aprendendo algo novo e gosto de novos desafios,
+            principalmente quando posso aproveitar a experiência adquirida com eles.
+            Também gosto de trabalhar em equipe, ajudar meus colegas, gosto bastante
+            de implementar testes e estou sempre buscando a simplicidade na resolução
+            de problemas.
+        </p>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Desenvolvedor Back-end - Fintech Magalu (Luizalabs)"
-      subtitle="De 2022 até o momento - Remoto"
-      desc="Atuo com o desenvolvimento e manutenção de microservices em NodeJS, utilizando tanto JavaScript quanto TypeScript. Trabalho com bancos de dados PostgreSQL e MongoDB, bem como ferramentas como Redis e RabbitMQ. Realizo testes de unidade e de integração utilizando Jest. Além do desenvolvimento em si, também realizo Code Review, Deploy e monitoramento constante das aplicações."
-    />
-    <TimeLineElement
-      title="Desenvolvedor Back-end - Grupo Imagetech"
-      subtitle="De 2021 até 2022 - Remoto"
-      desc="Minha principal responsabilidade era desenvolver aplicações RESTful utilizando PHP com o Framework Laravel, além de aplicativos GraphQL usando NestJS em NodeJS para uma arquitetura de microservices. Também fui responsável por implementar testes unitários e de integração em ambos os projetos, utilizando as ferramentas PHPUnit e Jest, além disso, trabalhei com bancos de dados SQL Server e Postgres."
-    />
-    <TimeLineElement
-      title="Desenvolvedor Back-end - Before Tecnologia da Informação"
-      subtitle="De 2020 até 2021 - Remoto"
-      desc=" Trabalhei com o Framework Laravel em um complexo sistema monolítico e com muito código legado. Utilizei o banco de dados MySQL para gerenciar grandes volumes de dados, além de Elasticsearch, Kibana e Logstash para gerar relatórios detalhados dentro da aplicação. Também criei testes de integração usando PHPUnit, e trabalhei em estreita colaboração com a equipe de QA, ajudando a realizar testes e identificar erros para garantir que o produto atendesse às expectativas do cliente."
-    />
-    <TimeLineElement
-      title="QA e Desenvolvedor Full Stack - Quality Sistemas"
-      subtitle="De 2018 até 2020 - Campo Grande, MS"
-      desc="Comecei como QA na empresa, onde trabalhei na identificação e encaminhamento para correção de erros nos projetos em PHP. Realizei testes nos sistemas web e atuei com consultas e correções em bancos de dados MySQL e Firebird. Após demonstrar habilidades técnicas e de resolução de problemas, recebi a oportunidade de atuar como Desenvolvedor PHP, onde implementei correções e melhorias nos projetos existentes. Também criei manuais de projetos web para ajudar a equipe de suporte e outros desenvolvedores a entenderem melhor as funcionalidades do sistema."
-    />
-  </div>
+        <p>
+            Com mais de 8 anos de experiência na área TI, comecei como Técnico de
+            Suporte e posteriormente atuei como QA. Atualmente, trabalho como
+            Desenvolvedor, utilizando NodeJS e TypeScript, além de ter experiência na
+            linguagem PHP, com o Framework Laravel, e em bancos de dados PostgreSQL,
+            MongoDB, MySQL e Elasticsearch, bem como cache utilizando Redis. Também
+            tenho habilidades em realizar testes unitários e de integração com Jest e
+            PHPUnit, além de ter trabalhado com Code Review, Deploy e monitoramento
+            constante das aplicações.
+        </p>
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Formação</div>
-  </div>
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Experiência</div>
+    </div>
 
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Análise e Desenvolvimento de Sistemas"
-      subtitle="2019 até 2021 na Universidade Estácio de Sá, Campo Grande, MS"
-    />
-  </div>
+    <div class="time-line-container mb-10">
+        <TimeLineElement
+                title="Desenvolvedor Back-end Sênior - Fintech Magalu (Luizalabs)"
+                subtitle="De 2022 até o momento - Remoto"
+                desc="Trabalho no desenvolvimento e manutenção de microserviços em Node, com bancos de dados relacionais e não relacionais, além de mensageria e várias outras ferramentas. Realizo testes unitários, de integração e E2E. Além do desenvolvimento, também realizo Code Review, Deploy, Monitoramento das aplicações, criação de Design Docs e diversas outras tarefas."
+        />
+        <TimeLineElement
+                title="Desenvolvedor Back-end - Grupo Imagetech"
+                subtitle="De 2021 até 2022 - Remoto"
+                desc="Minha principal responsabilidade era desenvolver aplicações RESTful utilizando PHP com o Framework Laravel, além de aplicativos GraphQL usando NestJS em NodeJS para uma arquitetura de microservices. Também fui responsável por implementar testes unitários e de integração em ambos os projetos, utilizando as ferramentas PHPUnit e Jest, além disso, trabalhei com bancos de dados SQL Server e Postgres."
+        />
+        <TimeLineElement
+                title="Desenvolvedor Back-end - Before Tecnologia da Informação"
+                subtitle="De 2020 até 2021 - Remoto"
+                desc=" Trabalhei com o Framework Laravel em um complexo sistema monolítico e com muito código legado. Utilizei o banco de dados MySQL para gerenciar grandes volumes de dados, além de Elasticsearch, Kibana e Logstash para gerar relatórios detalhados dentro da aplicação. Também criei testes de integração usando PHPUnit, e trabalhei em estreita colaboração com a equipe de QA, ajudando a realizar testes e identificar erros para garantir que o produto atendesse às expectativas do cliente."
+        />
+        <TimeLineElement
+                title="QA e Desenvolvedor Full Stack - Quality Sistemas"
+                subtitle="De 2018 até 2020 - Campo Grande, MS"
+                desc="Comecei como QA na empresa, onde trabalhei na identificação e encaminhamento para correção de erros nos projetos em PHP. Realizei testes nos sistemas web e atuei com consultas e correções em bancos de dados MySQL e Firebird. Após demonstrar habilidades técnicas e de resolução de problemas, recebi a oportunidade de atuar como Desenvolvedor PHP, onde implementei correções e melhorias nos projetos existentes. Também criei manuais de projetos web para ajudar a equipe de suporte e outros desenvolvedores a entenderem melhor as funcionalidades do sistema."
+        />
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Formação</div>
+    </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>TypeScript</li>
-    <li>Node</li>
-    <li>NestJS</li>
-    <li>JavaScript</li>
-    <li>Express</li>
-    <li>PHP</li>
-    <li>RabbitMQ</li>
-    <li>Postgres SQL</li>
-    <li>MySQL</li>
-    <li>MongoDB</li>
-    <li>ElasticSearch</li>
-    <li>Docker</li>
-    <li>Kubernetes</li>
-    <li>Git</li>
-    <li>Laravel</li>
-  </ul>
+    <div class="time-line-container grid gap-4 mb-10">
+        <TimeLineElement
+                title="Análise e Desenvolvimento de Sistemas"
+                subtitle="2019 até 2021 na Universidade Estácio de Sá, Campo Grande, MS"
+        />
+    </div>
+
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Skills</div>
+    </div>
+
+    <ul class="list-disc md:columns-5 columns-2 mx-6">
+        <li>TypeScript</li>
+        <li>Node</li>
+        <li>NestJS</li>
+        <li>JavaScript</li>
+        <li>Express</li>
+        <li>PHP</li>
+        <li>RabbitMQ</li>
+        <li>Postgres SQL</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>ElasticSearch</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Git</li>
+        <li>Laravel</li>
+    </ul>
 </BaseLayout>
